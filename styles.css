@@ -1,0 +1,113 @@
+body{
+    background-color: #d4e6fe;
+    margin: 30px;
+}
+
+.container{
+    height: 1000px;
+    width: 1000px;
+    background-color: #fdfeff;
+    margin: 150px;
+    display: grid;
+    justify-content: center;
+}
+
+H1{
+    color:#3c44b0;
+}
+
+.row {
+    display: grid;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .fname, .lname{
+    border-radius: 10px;
+    border-style: none;
+    background: #e7e9fe;
+    padding: 20px;
+    width: 200px;
+    height: 20px;
+  }
+
+  .lname, .phone{
+      margin-left: 30px;
+  }
+
+  .email, .phone{
+    border-radius: 10px;
+    border-style: none;
+    background: #dce1ff;
+    padding: 20px;
+    width: 200px;
+    height: 20px;
+  }
+
+  .address{
+    border-radius: 10px;
+    border-style: none;
+    background-color: #c7cdfd;
+    padding: 20px;
+    width: 475px;
+    height: 20px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .subject{
+    border-radius: 10px;
+    border-style: none;
+    padding: 20px;
+    width: 475px;
+    height: 50px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #a5b1fd;
+  }
+
+  .button{
+    padding: 9px 25px;
+    background-color: #233bf5;
+    border: none;
+    border-radius: 50px;
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+  }
+    span{
+        padding: 9px 25px;
+        background-color: #233bf5;
+        border: none;
+        border-radius: 50px;
+        display: grid;
+        height: fit-content;
+        width: fit-content;
+        justify-content: center;
+    }
+
+    a, button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        color: #edf0f1;
+        text-decoration: none;
+        display: flex;
+        justify-content:center;
+        margin: 200px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    p{
+        color: #7cd1b9;
+    }
